@@ -7,3 +7,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.logo {
+  width: 165px;
+}
+
+.main-info {
+  background-color: red;
+  text-transform: uppercase;
+}
