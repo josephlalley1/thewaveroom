@@ -1,6 +1,14 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html, body {
   background-color: black;
   color: white;
+  background: url('bg.png') center no-repeat;
+  background-size: 105%;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -22,12 +30,14 @@ h1 {
   font-family: 'League Gothic';
   font-size: 56px;
   letter-spacing: 4px;
+  margin: 16px 0;
 }
 
 h2 {
   font-family: 'Circular Book';
-  font-size: 16px;
+  font-size: 13px;
   letter-spacing: 1px;
+  color: rgba(255,255,255,0.6);
 }
 
 a {
@@ -37,10 +47,12 @@ a {
 
 p {
   font-family: 'Circular Medium';
+  text-align: center;
 }
 
 hr {
-  margin-right: 80%;
+  width: 30px;
+  margin-bottom: 50px;
 }
 
 .navbar {
@@ -55,6 +67,34 @@ hr {
 }
 
 .main-info {
-  background-color: red;
   text-transform: uppercase;
+  width: 645px;
+  margin: 70px auto 0 auto;
+  text-align: center;
+}
+
+.bottom-info {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin: 100px auto 0 auto;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.email-box {
+  background-color: #ffffff2e;
+  width: 320px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+}
+
+.sign-up {
+  height: 44px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 0;
+  padding: 0 20px;
 }
