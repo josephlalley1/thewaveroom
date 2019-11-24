@@ -5,7 +5,7 @@
 html, body {
   background-color: black;
   color: white;
-  background: url('bg.png') center no-repeat;
+  background: url('bg2.png') center no-repeat;
   background-size: 105%;
   margin: 0;
   padding: 0;
@@ -76,8 +76,8 @@ hr {
 .bottom-info {
   display: flex;
   justify-content: space-between;
-  width: 350px;
-  margin: 100px auto 0 auto;
+  width: 320px;
+  margin: 80px auto 0 auto;
   opacity: 0.6;
   text-align: center;
 }
@@ -97,4 +97,9 @@ hr {
   font-weight: 500;
   border: 0;
   padding: 0 20px;
+}
+
+.mailing-list-box {
+  display: flex;
+  justify-content: center;
 }
