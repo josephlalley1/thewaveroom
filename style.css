@@ -2,13 +2,23 @@
   box-sizing: border-box;
 }
 
-html, body {
+html {
   background-color: black;
+}
+
+body {
+  background: url('bg2.png') no-repeat center;
+}
+
+html, body {
   color: white;
-  background: url('bg2.png') center no-repeat;
-  background-size: 105%;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @font-face {
@@ -68,18 +78,21 @@ hr {
 
 .main-info {
   text-transform: uppercase;
-  width: 645px;
-  margin: 70px auto 0 auto;
+  width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bottom-info {
   display: flex;
   justify-content: space-between;
-  width: 320px;
-  margin: 80px auto 0 auto;
+  width: 100%;
+  margin-top: 64px;
   opacity: 0.6;
   text-align: center;
+  padding: 0 32px;
 }
 
 .email-box {
@@ -109,4 +122,8 @@ hr {
 .thankyou-info {
   text-transform: none;
   font-size: 15px;
+}
+
+.signup-card {
+  padding: 32px 32px 128px 32px;
 }
