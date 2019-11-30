@@ -145,4 +145,13 @@ hr {
     width: 100%;
     margin-top: 10px;
   }
+
+  .bottom-info {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .divider {
+    display: none;
+  }
 }
