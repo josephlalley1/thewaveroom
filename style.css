@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+input, textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+input[type=submit] {
+    -webkit-border-radius:0px;
+}
+
 html {
   background-color: black;
 }
